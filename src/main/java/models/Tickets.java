@@ -3,6 +3,7 @@ package models;
 public class Tickets {
     private String id;
     private Type type;
+
     public String getId() {
         return id;
     }

@@ -16,7 +16,7 @@ public class ParkingPerFloor {
         this.floorNumber = floorNumber;
     }
 
-    public ParkingPerFloor(ParkingSLotForTruck parkingSLotForTrucks, List<ParkingSLotForBike> parkingSLotForBikes, List<ParkingSLotForCar> parkingSLotForCars,long floorNumber) {
+    public ParkingPerFloor(ParkingSLotForTruck parkingSLotForTrucks, List<ParkingSLotForBike> parkingSLotForBikes, List<ParkingSLotForCar> parkingSLotForCars, long floorNumber) {
         this.floorNumber = floorNumber;
         this.parkingSLotForTrucks = parkingSLotForTrucks;
         this.parkingSLotForBikes = parkingSLotForBikes;
