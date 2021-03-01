@@ -8,7 +8,7 @@ public class ParkingLot {
     private String id;
     private long numberOfFloors;
     private long numberOfSlot;
-    private Map<Long,List<ParkingPerFloor>> parkingSLotList;
+    private Map<Long, List<ParkingPerFloor>> parkingSLotList;
 
 
     public ParkingLot(String id, long numberOfFloors, long numberOfSlot) {

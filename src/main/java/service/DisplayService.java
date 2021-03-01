@@ -9,6 +9,8 @@ import java.util.Map;
 
 public interface DisplayService {
     void free_count(String vehicleType, ParkingLot parkingLot);
+
     void free_slots(String vehicleType, ParkingLot parkingLot);
+
     void occupied_slots(String vehicleType, ParkingLot parkingLot);
 }
